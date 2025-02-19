@@ -133,7 +133,7 @@ export default function Home() {
                     className="text-center"
                   >
                     <Droplets className="w-6 h-6 mx-auto text-blue-500" />
-                    <div className="mt-2 text-sm text-gray-500">Humiditty</div>
+                    <div className="mt-2 text-sm text-gray-500">Humidity</div>
                     <div>
                       {Math.round(weather.main.humidity)}%
                     </div>
